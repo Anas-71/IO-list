@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IOS list</title>
+	<!-- Render All Elements Normally -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Main Template CSS File -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Header CSS File -->
+	<link rel="stylesheet" href="css/header.css">
+	<!-- Lists CSS File -->
+	<link rel="stylesheet" href="css/lists.css">
+	<!-- Font Awesome Library -->
+	<link rel="stylesheet" href="css/all.min.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+	<body>
+		<header>
+				<div class="container header-container">
+					<div class="profile">
+						<div class="profile-container">
+							<img class="profile-img" src="/images/profile-img.png" alt="">
+							<div class="profile-name js-profile-name">
+							</div>
+						</div>
+					</div>
+					<div class="searchbar">
+						<input class="search-input js-search-input" type="text" placeholder="Search list by name">
+					</div>
+					<div class="menu">
+						<a class="header-list" href="">Home</a>
+						<a class="header-list" href="">Profile</a>
+						<a class="header-list on-page" href="">Lists</a>
+						<a class="header-list" href="">Settings</a>
+					</div>
+				</div>
+		</header>
+
+		<nav>
+			<div class="logo-close-div">
+				<img src="images/logo.png" class="sidebar-logo" alt="">
+				<div class="xmark-div js-xmark-div">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<button class="btn-newlist-sidebar js-btn-newlist-sidebar">
+				<i class="fa-solid fa-plus"></i>
+				Add new list
+				</button>
+			<div> 
+				<h1 class="all-subtitle">All</h1>
+				<div class="lists-menu js-lists-menu">
+					<div class="list list-in-view">list 1</div>
+					<div class="list">list 2</div>
+					<div class="list">list 3</div>
+				</div>
+			</div>
+		</nav>
+		
+		<main>
+			<section id="top-section">
+				<div class="container top-section-container">
+					<div class="hamburger-sidebar">
+						<div class="hamburger js-hamburger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="top-section-name js-top-section-name">
+						<h2 class="list-name-title js-list-name-title"></h2>
+						<input type="text" class="list-name-input js-list-name-input" placeholder="Enter at least 1 character">
+					</div>
+					<div class="edit-buttons">
+						<button class="btn-edit js-btn-edit">Edit</button>
+						<button class="btn-delete js-btn-delete">Delete</button>
+						<button class="btn-newlist js-btn-newlist">New list</button>
+					</div>
+				</div>
+			</section>
+	
+			<section id="main-section">
+				<div class="everything">
+					<div class="input-btns-row">
+						<input type="text" class="list-item-input js-list-item-input" placeholder="Enter a list item">
+						<button class="btn-save js-btn-save">Save</button>
+						<button class="btn-clear-all js-btn-clear-all">Clear all</button>
+					</div>
+					<div class="all-items js-all-items">
+						<div class="list-item">
+							<div>1</div>
+							<div>somethingsomething</div>
+						</div>
+						<div class="list-item">
+							<div>2</div>
+							<div>somethingsomething</div>
+						</div>
+						<div class="list-item">
+							<div>3</div>
+							<div>somethingsomething</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="data/lists.js"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>

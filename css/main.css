@@ -1,0 +1,30 @@
+/* Start Variables */
+:root {
+  --secondary-color: #06364A;
+  --primary-color: #7C9AB2;
+  --cyan-color: #6CBBB6;
+  --light-grey-color: #EEEEEE;
+  --header-height: 75px;
+}
+/* End Variables */
+
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: var(--header-height);
+  background-color: var(--light-grey-color);
+  color: white;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+/* End Global Rules */
