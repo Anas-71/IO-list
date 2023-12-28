@@ -1,5 +1,5 @@
 let theListInView = lists[0];
-showList();
+// showList();
 changeTopSection();
 updateSidebarMenu();
 updateProfileName();
