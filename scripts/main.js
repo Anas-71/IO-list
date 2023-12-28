@@ -19,6 +19,8 @@ function updateProfileName() {
 
 function showList() {
   const listInViewElement = document.querySelector('.js-all-items');
+  if (theListInView.listContent === '')
+    return;
   let newHTML = ``;
   theListInView.listContent.forEach((item, index) => {
     newHTML += `
