@@ -1,6 +1,6 @@
 let lists =  JSON.parse(localStorage.getItem('savedAllLists')) || [{
   listName: 'list 1',
-  listContent: ['something', 'something']
+  listContent: []
 }, {
   listName: 'list 2',
   listContent: []
